@@ -165,6 +165,13 @@
             <h1 class= "text-center text-white py-5 mb-5">¡¡Contactanos!!</h1>
             <form class="row g-3" action="https://formsubmit.co/28c05b348905be448a57ac66373cb6f3" method="POST" >
                 
+                <!-- Aqui va el honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- quitar la pantalla de caption no robot -->
+
+                <input type="hidden" name="_captcha" value="false">
+
                 <div class="col-8 form-floating mb-3">
 
                     <input type="text" class="form-control" id="floatingName" name="name" placeholder="Nombre" required>
